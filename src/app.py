@@ -1,7 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Validador de schema excel"
+)
+
 # Título do App
-st.title('Nosso Primeiro App com Streamlit')
+st.title("Insira o seu excel para validação")
 
 # Escrevendo um Hello World com markdown
 st.markdown('**Hello world!** 🌍')
